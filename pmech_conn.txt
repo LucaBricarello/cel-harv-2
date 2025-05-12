@@ -1,18 +1,27 @@
-       Error Diagnostics for Analysis/Assembly Failure
+       Diagnostica errori: analisi/assieme
 
-  All position constraints can't be simultaneously satisfied. 
-The following position constraints can't be satisfied:
-
-
-1) Lower limit of the first translation axis in connection Connection_1 in model
-196021_DSNU-32-40-PPV-A---_0_ (component id path [53,5]) can't be satisfied.
+  Impossibile soddisfare contemporaneamente tutti i vincoli di posizione. 
+I seguenti vincoli di posizione non possono essere soddisfatti:
 
 
-2) Constraint of the first rotation axis in connection Connection_3 in model
-CELERY_GRIPPER can't be satisfied.
+1) Impossibile soddisfare Vincolo di primo asse di rotazione della connessione
+Connection_1 nel modello NEW_CEL_TEST.
 
 
-3) The following kinematic loop can't be closed: Ground - body3 - body7 - body1
-- Ground.
+2) Impossibile soddisfare Vincolo di primo asse di rotazione della connessione
+Connection_3 nel modello NEW_CEL_TEST.
+
+
+3) Impossibile soddisfare Vincolo di primo asse di traslazione della connessione
+Connection_1 nel modello 196021_DSNU-32-40-PPV-A---_0_ (component id path
+[46,5]).
+
+
+4) Impossibile chiudere il loop cinematico seguente: Ground - body2 - body6 -
+body1 - Ground.
+
+
+5) Impossibile chiudere il loop cinematico seguente: Ground - body2 - body6 -
+body7 - body3 - Ground.
 
 
