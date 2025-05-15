@@ -1,0 +1,19 @@
+﻿  MODELLO SUB_TOTAL_TEST:
+ 
+
+  TROVATI 1 LOOP DI RIFERIMENTO CIRCOLARE
+ 
+
+   LOOP n.  1
+
+   Profondità del loop è 3
+
+Feature 7 (COMPONENTE, ID = 45) 
+  nel modello SUB_BOTTOM si riferisce a:
+
+Feature 3 (COMPONENTE, ID = 5) 
+  nel modello 196023_DSNU-32-80-PPV-A---_0_ si riferisce a:
+
+Feature 7 (COMPONENTE, ID = 45) 
+  nel modello SUB_BOTTOM - cerchio chiuso.
+
